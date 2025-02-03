@@ -1,0 +1,71 @@
+
+
+Command line
+
+./spheric -ogb -halo -Nhalo 1000000 -Mhalo 57.355 -a 1 -b 3 -c 1 -rs 19.8 -rcutoff 173.66 -hernquist -Mstar 1.21 -Nstar 12100 -rhern 9.49 -name nfw-hern 
+
+Halo model properties
+
+alpha = 1
+beta  = 3
+gamma = 1
+rho0  =  3.4773950e-04 MU LU^-3
+rs    =  1.9800000e+01 LU
+rhalf =  8.3731094e+01 LU
+rcutoff =  1.7366000e+02 LU
+rdecay  =  1.7366000e+01 LU
+
+Stellar model properties
+
+K        =  2.2748879e-04 MU LU^-3
+rhernquist =  9.4900000e+00 LU
+rhalfStar=  2.2542015e+01 LU
+
+System properties
+
+rvir    =  9.1048873e+01 LU
+rinner  =  9.4900000e-03 LU
+router  =  1.9800000e+03 LU
+
+Mhalo(rs)      =  6.5516054e+00 MU
+Mhalo(rhalf)   =  2.8677420e+01 MU
+Mhalo(rvir)    =  3.0565795e+01 MU
+Mhalo(rinner)  =  3.8923806e-06 MU
+Mhalo(router)  =  5.7355000e+01 MU
+Mhalo(rcutoff) =  4.6868814e+01 MU
+MparticleHalo  =  5.7355000e-05 MU
+Mstar(rhernquist) =  3.0540653e-01 MU
+Mstar(rhalfStar) =  6.0499933e-01 MU
+Mtotal(rhalfStar) =  8.3292686e+00 MU
+MparticleStar  =  1.0000000e-04 MU
+
+Sampling properties
+
+|Cr| =  3.2908065e-15 LU       Cr = (-2.8700136e-15, +1.6207957e-16, -1.6019238e-15) MU
+|Cv| =  9.3619084e-18 LU TU^-1 Cv = (+1.6992437e-18, -7.5693925e-18, +5.2404387e-18) LU TU^-1
+
+Etot = -9.5037645e+00 MU LU^2 TU^-2
+Ekin = +9.3314999e+00 MU LU^2 TU^-2
+Epot = -1.8835264e+01 MU LU^2 TU^-2
+Rvir = |2*Ekin/Epot| = 0.990854
+
+Ntot                =  1.0121000e+06 = 1012100
+rimp                =  2.5949048e-02 LU
+r1                  =  3.6411293e-02 LU
+r100                =  3.6411293e-01 LU
+Mtheo               =  5.8565000e+01 MU
+Msamp               =  5.8565000e+01 MU
+(Msamp-Mtheo)/Mtheo =  1.5072610e-11
+Random seed         =  1.7135454e+09
+
+Times for individual steps
+
+Calculation of halo properties and initialisation of grid in r: 0.04468 seconds.
+Initialisation of grid for distribution function: 1.68272 seconds.
+Setting particle positions: 0.099808 seconds
+Setting particle velocities: 0.818328 seconds
+Setting remaining particle attributes: 0.00243 seconds
+Calculating a few things and correct center of mass: 0.106311 seconds
+Selecting star particles: 0.004894 seconds!
+Writing output: 1.97938 seconds
+Total time: 4.73854 seconds
